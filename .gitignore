@@ -19,6 +19,7 @@ build.xml
 #IntelliJ files
 *.iml
 .idea
+out/
 
 #Netbeans files
 nbproject/
