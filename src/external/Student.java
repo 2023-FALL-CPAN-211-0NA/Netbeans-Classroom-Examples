@@ -1,11 +1,13 @@
 package external;
 
+import java.io.Serializable;
+
 /**
  * When we import libraries (JAR files), All the classes (.class files)
  * gets copied to the root of the source location of
  * existing project files during the compilation of programs.
  * */
-public class Student implements Comparable<Student> {
+public class Student implements Comparable<Student>, Serializable {
 
     private final String name;
     private final double percentage;
